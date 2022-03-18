@@ -17,4 +17,12 @@ print(f'los multiplos de tres son: 3{multiploTres}')
 
 
 # punto dos
+print('Ingrese 10 ingredeintes para preparar un salpicon.')
+ingredientes =[]
+for i in range(10):  
+    ingredientes.append(input('Ingrese el nombre del ingrediente: '))
+print('La lista de ingredientes ingresados es: ')
+
+for i in reversed(ingredientes):
+    print(i)
 
